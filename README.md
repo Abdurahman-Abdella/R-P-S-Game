@@ -36,5 +36,5 @@ It features a clean interface, glowing hover effects, local score tracking, and 
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/rps-showdown.git
+git clone https://https://github.com/Abdurahman-Abdella/R-P-S-Game.git
 cd rps-showdown
