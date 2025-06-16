@@ -24,8 +24,10 @@ It features a clean interface, glowing hover effects, local score tracking, and 
 
 ## 🖼️ Preview
 
-![Screenshot of RPS Showdown](images/screenshot.png)  
-*(Replace with a real screenshot from your project folder)*
+
+
+![Screenshot of RPS Showdown](images/Screenshot%202025-06-16%20115230.png)
+
 
 ---
 
