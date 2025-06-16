@@ -30,6 +30,31 @@ It features a clean interface, glowing hover effects, local score tracking, and 
 
 
 ---
+###
+
+## 🛠️ Tech Stack
+
+- **HTML5** – semantic structure  
+- **CSS3** – styling, transitions, layout  
+- **JavaScript (Vanilla)** – game logic and interactivity  
+- **localStorage API** – to save game score locally
+
+---
+
+## 🙌 Credits & Resources
+
+- 🎨 [SVGRepo](https://www.svgrepo.com/) – Logo & icon assets  
+- 🧠 Game idea: Rock-Paper-Scissors, the timeless classic  
+- 🖋 Fonts: [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts  
+- 🧱 UI/UX inspiration from modern card-style layouts
+
+---
+
+## 📄 License
+
+This project is licensed under the **[MIT License](LICENSE)**.  
+Feel free to use, modify, or distribute with credit.
+
 
 ## 🚀 Getting Started
 
