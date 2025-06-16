@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R-P-S</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <header class="header-bar">
+  <div class="logo-wrapper">
+    <img src="images/game-svgrepo-com.svg" alt="Logo" class="header-logo">
+  </div>
+  <span class="brand-name">R-P-S</span>
+</header>
+
+</header>
+
+  <div class="container">
+    <div class="title-box">
+     <p class="title">Rock-Paper-Scissors</p>
+    </div>
+    
+  <div class="icon-button">
+     <button onclick="playGame('rock')" class="move-button"
+  ><img src="images/rock-emoji.svg" class="move-icon"></button>
+  <button onclick="playGame('paper')" class="move-button"
+  ><img src="images/paper-emoji.svg" class="move-icon" ></button>
+  <button onclick="playGame('scissors')" class="move-button"><img src="images/scissors-emoji.svg" class="move-icon" ></button>
+  </div>
+
+  <div class="result-box">
+     <p class="js-result result"></p>
+</div>
+<div class="move-score">
+  <p class="js-moves"></p>
+</div>
+ 
+  <div class="score-box"><p class="js-score score"></p>
+</div>
+<div class="reset-score-box">
+<button onclick="
+    score.wins = 0;
+    score.losses = 0;
+    score.ties = 0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+  " class="reset-button-score"><img src="images/basic-outline-reset-clock-svgrepo-com.svg" class="repeat-button"></button>
+</div>
+  
+  </div>
+  
+<script src="conf.js"></script>
+  
+</body>
+</html>
