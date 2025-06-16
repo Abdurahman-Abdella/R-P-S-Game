@@ -8,7 +8,7 @@ It features a clean interface, glowing hover effects, local score tracking, and 
 ## 🎮 Live Demo
 
 [▶️ Play RPS Showdown](https://r-p-s-game-peach.vercel.app/)  
-*(Replace this with your actual GitHub Pages or Netlify link)*
+
 
 ---
 
@@ -24,15 +24,42 @@ It features a clean interface, glowing hover effects, local score tracking, and 
 
 ## 🖼️ Preview
 
-![Screenshot of RPS Showdown](images/screenshot.png)  
-*(Replace with a real screenshot from your project folder)*
+
+
+![Screenshot of RPS Showdown](images/Screenshot%202025-06-16%20115230.png)
+
 
 ---
+###
+
+## 🛠️ Tech Stack
+
+- **HTML5** – semantic structure  
+- **CSS3** – styling, transitions, layout  
+- **JavaScript (Vanilla)** – game logic and interactivity  
+- **localStorage API** – to save game score locally
+
+---
+
+## 🙌 Credits & Resources
+
+- 🎨 [SVGRepo](https://www.svgrepo.com/) – Logo & icon assets  
+- 🧠 Game idea: Rock-Paper-Scissors, the timeless classic  
+- 🖋 Fonts: [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts  
+- 🧱 UI/UX inspiration from modern card-style layouts
+
+---
+
+## 📄 License
+
+This project is licensed under the **[MIT License](LICENSE)**.  
+Feel free to use, modify, or distribute with credit.
+
 
 ## 🚀 Getting Started
 
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/rps-showdown.git
+git clone https://https://github.com/Abdurahman-Abdella/R-P-S-Game.git
 cd rps-showdown
