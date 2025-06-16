@@ -8,7 +8,7 @@ It features a clean interface, glowing hover effects, local score tracking, and 
 ## 🎮 Live Demo
 
 [▶️ Play RPS Showdown](https://r-p-s-game-peach.vercel.app/)  
-*(Replace this with your actual GitHub Pages or Netlify link)*
+
 
 ---
 
