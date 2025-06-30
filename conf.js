@@ -34,6 +34,14 @@
       playGame('scissors');
     });
 
+    document.querySelector('.js-reset-button').addEventListener('click', ()=>{
+      score.wins = 0;
+    score.losses = 0;
+    score.ties = 0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+    });
+
 
 
 
