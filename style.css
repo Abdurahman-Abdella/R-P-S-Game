@@ -161,7 +161,37 @@ body{
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2),
     0 0 20px rgba(255, 255, 255, 0.15),
     0 0 30px rgba(255, 255, 255, 0.1);
-  transform: scale(1.05);
+}
+
+.auto-play-button{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+ font-family: 'Poppins', sans-serif;
+ font-size: 14px;
+ font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.05),
+              0 2px 5px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.auto-play-button:hover{
+    color: #000;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.15),
+    0 0 30px rgba(255, 255, 255, 0.1);
+}
+.auto-play-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 
@@ -169,6 +199,8 @@ body{
 .reset-score-box{
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .repeat-button{
