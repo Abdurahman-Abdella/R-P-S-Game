@@ -73,11 +73,7 @@ body {
 }
 
 
-/* Optional: floating "lift" effect on hover */
-.container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
-}
+
 
 
       .title{
@@ -95,17 +91,23 @@ body {
         height: 50px;
       }
       
-      .move-button{
-        background-color: transparent;
-        border: 3px solid #000;
-        width: 100px;
-        height: 100px;
-        border-radius: 60px;
-        margin-right: 10px;
-        cursor: pointer;
-         outline: 1px solid black;
+      .move-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(27, 26, 26, 0.3);
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(8px);
+}
 
-  }
+.move-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4),
+              0 0 10px rgba(0, 0, 0, 0.2);
+}
 
       .icon-button{
         display: flex;
@@ -187,10 +189,11 @@ body {
 
 .auto-play-button:hover{
     color: #000;
-  background-color: transparent;
+  background-color: rgba(51, 48, 48, 0.1);
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2),
     0 0 20px rgba(255, 255, 255, 0.15),
     0 0 30px rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
 }
 .auto-play-box{
   display: flex;
