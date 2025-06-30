@@ -2,21 +2,28 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
    
-body{
-  font-family: Poppins, arial;
+body {
+  font-family: Poppins, Arial, sans-serif;
   display: flex;
   justify-content: center;
   height: 100vh;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.489);
+  background: linear-gradient(-145deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
   color: #000;
-  font-family: Arial;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+
 
 .header-bar {
   width: 100%;
   padding: 15px 30px;
-  background-color:rgba(255, 255, 255, 0.489);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -24,8 +31,7 @@ body{
   top: 0;
   left: 0;
   z-index: 9999;
-    backdrop-filter: blur(12px);
-
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .header-logo {
@@ -53,21 +59,19 @@ body{
 
 
  .container {
-  margin-top: 90px;  
-  font-family: Poppins, Arial, sans-serif;
-  border: 1px solid #ccc;
+  margin-top: 70px;
   padding: 40px 30px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15),
               0 4px 10px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   max-width: 500px;
   width: 90%;
-  margin: 0 auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
 }
+
 
 /* Optional: floating "lift" effect on hover */
 .container:hover {

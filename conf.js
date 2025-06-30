@@ -42,6 +42,10 @@
     updateScoreElement();
     });
 
+    document.querySelector('.js-auto-button').addEventListener('click', ()=>{
+        autoPlay();
+});
+
 
 
 
